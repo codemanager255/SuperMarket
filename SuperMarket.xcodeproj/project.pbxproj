@@ -14,6 +14,7 @@
 		044EF6342B162B89000B0EDA /* SuperMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF6332B162B89000B0EDA /* SuperMarketTests.swift */; };
 		044EF63E2B162B89000B0EDA /* SuperMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF63D2B162B89000B0EDA /* SuperMarketUITests.swift */; };
 		044EF6402B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF63F2B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift */; };
+		044EF64D2B1632FA000B0EDA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF64C2B1632FA000B0EDA /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		044EF6392B162B89000B0EDA /* SuperMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044EF63D2B162B89000B0EDA /* SuperMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketUITests.swift; sourceTree = "<group>"; };
 		044EF63F2B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044EF64C2B1632FA000B0EDA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				044EF6222B162B85000B0EDA /* SuperMarketApp.swift */,
+				044EF64C2B1632FA000B0EDA /* LoginViewModel.swift */,
 				044EF6242B162B85000B0EDA /* ContentView.swift */,
 				044EF6262B162B88000B0EDA /* Assets.xcassets */,
 				044EF6282B162B88000B0EDA /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				044EF6252B162B85000B0EDA /* ContentView.swift in Sources */,
 				044EF6232B162B85000B0EDA /* SuperMarketApp.swift in Sources */,
+				044EF64D2B1632FA000B0EDA /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
