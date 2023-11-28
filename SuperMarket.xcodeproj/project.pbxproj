@@ -15,6 +15,7 @@
 		044EF63E2B162B89000B0EDA /* SuperMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF63D2B162B89000B0EDA /* SuperMarketUITests.swift */; };
 		044EF6402B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF63F2B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift */; };
 		044EF64D2B1632FA000B0EDA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EF64C2B1632FA000B0EDA /* LoginViewModel.swift */; };
+		AD8AE3B42B16456B00D9F14B /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8AE3B32B16456B00D9F14B /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		044EF63D2B162B89000B0EDA /* SuperMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketUITests.swift; sourceTree = "<group>"; };
 		044EF63F2B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		044EF64C2B1632FA000B0EDA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AD8AE3B32B16456B00D9F14B /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				044EF6222B162B85000B0EDA /* SuperMarketApp.swift */,
 				044EF64C2B1632FA000B0EDA /* LoginViewModel.swift */,
 				044EF6242B162B85000B0EDA /* ContentView.swift */,
+				AD8AE3B22B1644DF00D9F14B /* storyboard */,
 				044EF6262B162B88000B0EDA /* Assets.xcassets */,
 				044EF6282B162B88000B0EDA /* Preview Content */,
 			);
@@ -128,6 +131,14 @@
 				044EF63F2B162B89000B0EDA /* SuperMarketUITestsLaunchTests.swift */,
 			);
 			path = SuperMarketUITests;
+			sourceTree = "<group>";
+		};
+		AD8AE3B22B1644DF00D9F14B /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD8AE3B32B16456B00D9F14B /* main.storyboard */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044EF62A2B162B88000B0EDA /* Preview Assets.xcassets in Resources */,
+				AD8AE3B42B16456B00D9F14B /* main.storyboard in Resources */,
 				044EF6272B162B88000B0EDA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
