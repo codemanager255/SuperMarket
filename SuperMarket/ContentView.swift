@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = LoginViewModel()
     @State var userName: String = ""
     @State var password: String = ""
 
@@ -16,7 +17,7 @@ struct ContentView: View {
            TextField("User Name", text: $userName)
            SecureField("Password", text: $password)
             Button("Login") {
-                print("Login")
+                viewModel.valideCredentials(userName:"", password: "")
             }
         }
         .padding()
